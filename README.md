@@ -20,7 +20,7 @@ The example contract is currently [Live] on the smartweave and should in theory 
 3. A string with the name of the function in the wasm file to be called should be passed to ```"wasmFunc"```.
 4. An array with with the arguments for the wasm function must be passed if the function accepts arguments.
 
-    An example input can be seen below:
+An example input can be seen below:
 
 ```json
 {
@@ -31,7 +31,7 @@ The example contract is currently [Live] on the smartweave and should in theory 
 }
 ```
 
-    An SW execution example below:
+A SW execution example below:
 
 ```sh
 smartweave write txqZ6Rfk_1d5MJm-0-4Nrm7didwYELgas9R0Pu0__EA --key-file '/where/you/store/your-key.json' --input '{"function":"wasm", "wasmURL":"https://github.com/torch2424/wasm-by-example/raw/master/examples/hello-world/demo/assemblyscript/hello-world.wasm", "wasmFunc":"add","wasmArgs":[5,5]}'  
