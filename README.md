@@ -1,7 +1,7 @@
 # unsafe_wasm4smartweave
 ## A highly experimental method of running wasm in smartweave contracts without modifying the handler function, not recommended for production.
 
-* ## *this example is not intended for production use and is only intended for educational use.*
+* ## *This example is not intended for production use and is only intended for educational use.*
 
 ## Research statements:
 
@@ -14,7 +14,9 @@
 The example contract is currently [Live] on the smartweave and should in theory accept any wasm file/function that does not violate statement 2. above.
 
 ## Burning away AR in the name of science:
-* how to execute the [Live] contract:
+* How to execute the [Live] contract:
+* Example contract Address: txqZ6Rfk_1d5MJm-0-4Nrm7didwYELgas9R0Pu0__EA
+
 1. The example only accepts one function in input ```"wasm"```.
 2. A wasm files url must be passed to ```"wasmURL"```.
 3. A string with the name of the function in the wasm file to be called should be passed to ```"wasmFunc"```.
